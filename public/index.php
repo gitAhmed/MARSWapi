@@ -14,6 +14,8 @@ $app->get('/h/{name}', function (Request $request, Response $response) {
 });
 
 // Customer Routes
-require '../src/routes/customers.php';
+require '../src/routes/student.php';
+require '../src/routes/Instructor.php';
+require '../src/routes/Incentive.php';
 
 $app->run();
